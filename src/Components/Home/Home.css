@@ -1,0 +1,88 @@
+.home-container-main{
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(-45deg, #68ca27, #735b8fcc, #ff0000, #00ccff);
+  background-size: 200% 200%;
+  animation:gradient 7s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container-main >p{
+ margin: 0;
+}
+
+.home-main-div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  border-radius: 5px;
+  outline: 2px solid black;
+  background-image: url(https://lp-cms-production.imgix.net/2020-11/shutterstockRF_626215625.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: 100%;
+}
+
+
+
+
+.home-button{
+  width: 100%;
+  text-align: center;
+  margin-bottom:0;
+  height: 7vh;
+  margin-top: 500px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+.home-button > p {
+  text-decoration: none;
+  font-size: 30px;
+  margin: auto;
+  color: white;
+}
+
+
+@media (max-width: 1125px){
+  .home-main-div{
+    background-size: 120% 120%;
+  }
+}
+
+@media(max-width: 630px){
+  .deals-button > p{
+    font-size: 25px;
+  }
+  .home-welcome{
+    font-size: 25px;
+  }
+  .nav-links-box{
+    gap: 5px;
+    flex-direction: column;
+  }
+  .nav-user-login-box{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

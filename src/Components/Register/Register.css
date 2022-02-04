@@ -1,0 +1,73 @@
+.register-main{
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #8ee057, #e5e765cc, #04bd8f, #07c4f3);
+  background-size: 200% 200%;
+  animation:gradient 5s ease infinite;
+}
+
+.register-box{
+  display: flex;
+  background-color: rgba(187, 187, 183, 0.74);
+  width: 500px;
+  height:40vh;
+  background-size: 100% 100%;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.button-box{
+  margin-top: 60px;
+  justify-content:  center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  outline: 2px solid black;
+  border-radius: 3px;
+  width: 55%;
+  height: 10vh;
+  background-color:rgb(0, 0, 0)
+}
+
+
+.register-username{
+  height: 3vh;
+  width: 13vh;
+}
+
+.register-password{
+  height: 3vh;
+  width: 13vh;
+}
+
+.register-reg-button{
+  width: 17vh;
+  height: 7vh;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-radius: 6px;
+}
+
+.register-reg-button:hover {
+  background-color: #0ea300;
+  color: rgb(0, 0, 0);
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

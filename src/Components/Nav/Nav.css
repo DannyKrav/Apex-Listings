@@ -1,0 +1,101 @@
+.nav-container-main{
+  margin: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(51, 50, 50);
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.nav-title-div{
+  font-size: 15px;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 247, 75);
+}
+
+.nav-title-div>p{
+  margin: 0;
+  font-size: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-links-box{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-links-button{
+  width: 80px;
+  cursor: pointer;
+  background-color: rgb(125, 218, 152);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-user-login-box{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+.nav-user-button{
+  width: 80px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.nav-user-button:hover {
+  background-color: #0059fd;
+  color: white;
+}
+
+
+@media (max-width: 1145px){
+  .nav-title-div >p{
+    font-size: 25px;
+  }
+  .nav-links-button{
+    font-size: 15px;
+    width: 60px;
+  }
+  .nav-user-login-box{
+    font-size: 10px;
+  }
+}
+
+.nav-user-username{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: auto;
+}
+
+.logout-button{
+  width: 70px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logout-button >p {
+  font-size: 14px;
+  margin: auto;
+}
+
+.nav-user-logout{
+  margin: auto;
+}
+
+.user-username{
+  font-size: 16px;
+}
